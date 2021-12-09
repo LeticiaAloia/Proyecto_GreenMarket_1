@@ -1,0 +1,13 @@
+// Importo extensiones base.
+@import "base/reseteos";
+@import "base/fuentes";
+@import "base/variables";
+@import "base/mixins";
+@import "base/mapas";
+@import "base/extends";
+// Importo extensiones components.
+@import "components/header";
+@import "components/market";
+@import "components/lounge";
+@import "components/generales";
+@import "components/footer";

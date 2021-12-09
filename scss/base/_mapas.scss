@@ -1,0 +1,7 @@
+@import "variables";
+
+// Mapa aplicado en "_mixins": "@mixin barras" y "_extends": "%boton".
+$textos: (
+    color-textos: $colorGeneral,
+    color-fondo: $backParrafos,
+)

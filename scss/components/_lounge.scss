@@ -1,0 +1,15 @@
+// Mixins.
+.fondo-lounge {
+    background: url(../media/fondolounge.png);
+    @include fondo-cuerpo;
+}
+
+// Extend.
+.parrafo-marketing {
+    @extend %parrafo;
+    text-align: left;
+}
+
+.duracion {
+    transition: $carousel-transition-duration;
+}

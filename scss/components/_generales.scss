@@ -1,0 +1,33 @@
+// Fondo de pantalla.
+.imagen-bienvenida {
+    background: url(../media/fondoinicio.png);
+    @include fondo-cuerpo;
+}
+
+// Extend.
+.titulo {
+    @extend %titulos;
+}
+
+// Aplicados mixins.
+.parrafo-bienvenida {
+    @extend %parrafo;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.certificados {
+    @include fuente-fondo;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+
+
+

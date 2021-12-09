@@ -1,0 +1,34 @@
+@import "mapas";
+
+// Aplicado en "_market", ".boton" y ".boton-venta".
+%boton {
+    color: map-get($textos, color-textos);
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+    box-shadow: rgb(0 0 0 / 50%) -1px -10px -10px;
+    text-decoration: none;
+    text-align: center; 
+    font-family: "inlander";
+}
+
+// Aplicado en "_generales", ".titulo".
+%titulos {
+    font-size: 1.5em;
+    font-family: "inlander";
+    color: $colorGeneral;
+    background: url(../media/pizarra.png);
+    text-align: center;
+    padding: 3px 3px;
+    margin-bottom: 3px;
+    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+}
+
+// Aplicado en "_generales", ".parrafo-bienvenida" y "_lounge", ".parrafo-marketing".
+%parrafo {
+    font-family: "Outfit", sans-serif;
+    color: $colorGeneral;
+    font-size: 1rem;
+    background-color: $backParrafos;
+    margin: auto;
+    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+}

@@ -1,0 +1,40 @@
+@import "fuentes";
+@import "variables";
+@import "mapas";
+
+// Mixins
+
+// Aplico mapa.
+@mixin barras {
+    color: map-get($textos, color-textos);
+    background-color: map-get($textos, color-fondo);
+    width: 100%;
+    transition: all 1s;
+
+    &:hover {
+        background-color: $verdeLogo;
+    }    
+}
+
+// Para fondos de las páginas. Podría ser un extend también.
+@mixin fondo-cuerpo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+// Mixin de color de fuente y fondo
+@mixin fuente-fondo {
+    color: $colorGeneral;
+    background: url(../media/pizarra.png);
+}
+
+@mixin lista {
+    font-family: "inlander";
+    display: inline-block;
+    color: $colorGeneral;
+    width: 8rem;
+    position: relative;
+    font-size: 1rem;
+} 
+

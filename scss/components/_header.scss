@@ -1,0 +1,42 @@
+// Estilo de fondo del menú.
+.pizarra-inicio {
+    @include barras;
+    margin-bottom: 2rem;
+    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+}
+// Submenú.
+ul {
+    list-style: none;
+    font-size:0;
+    li {
+        @include lista; 
+        ul {
+            position: absolute;
+            display: none;
+            background: url(../media/pizarra.png);
+            box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+            li {
+                display: block;
+            }
+        }
+    } 
+}
+ul li:hover ul {
+    display: block;
+    color: var(--colorGeneral);
+}
+
+// Estilo de los vínculos.
+.vinculo {
+    color: $colorGeneral;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(190, 228, 190);
+    }
+}
+ 
+
+  
+    
+

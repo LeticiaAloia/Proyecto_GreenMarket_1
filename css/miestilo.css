@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "inlander";
+  src: url(../../inlander/Inlander\ Texture.ttf);
+}
+@font-face {
+  font-family: "inlander";
+  src: url(../../inlander/Inlander\ Texture.ttf);
+}
+.boton-venta, .boton {
+  color: whitesmoke;
+  font-size: 0.9em;
+  padding: 0.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) -1px -10px -10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "inlander";
+}
+
+.titulo {
+  font-size: 1.5em;
+  font-family: "inlander";
+  color: whitesmoke;
+  background: url(../media/pizarra.png);
+  text-align: center;
+  padding: 3px 3px;
+  margin-bottom: 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.parrafo-bienvenida, .parrafo-marketing {
+  font-family: "Outfit", sans-serif;
+  color: whitesmoke;
+  font-size: 1rem;
+  background-color: rgba(21, 34, 1, 0.39);
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+
+.pizarra-inicio {
+  color: whitesmoke;
+  background-color: rgba(21, 34, 1, 0.39);
+  width: 100%;
+  transition: all 1s;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+.pizarra-inicio:hover {
+  background-color: #002205ee;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+ul li {
+  font-family: "inlander";
+  display: inline-block;
+  color: whitesmoke;
+  width: 8rem;
+  position: relative;
+  font-size: 1rem;
+}
+ul li ul {
+  position: absolute;
+  display: none;
+  background: url(../media/pizarra.png);
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+}
+ul li ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+  color: var(--colorGeneral);
+}
+
+.vinculo {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.vinculo:hover {
+  color: #bee4be;
+}
+
+.fondo-comercial {
+  background-image: url(../media/fondocomerciales.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.tarjeta {
+  width: auto;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#b99f9f, #fcf9f9);
+  margin-top: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+  border: 1px solid whitesmoke;
+}
+
+.tamanio-producto {
+  width: 12rem;
+}
+
+.fondo-producto {
+  background-image: linear-gradient(#b99f9f, #fcf9f9);
+}
+
+.boton {
+  background: rgba(21, 34, 1, 0.39);
+  border: 0.2px solid whitesmoke;
+}
+.boton:hover {
+  background-color: #002205ee;
+  border: none;
+}
+
+.boton-venta {
+  background-color: rgba(21, 34, 1, 0.39);
+  width: 12em;
+  padding: 0.5rem 1rem;
+  border: 1px solid whitesmoke;
+  transition: background-color 1s;
+}
+.boton-venta:hover {
+  background-color: #002205ee;
+  color: #fcf9f9;
+}
+
+.pizarra-venta {
+  font-size: 1em;
+  font-family: "inlander";
+  background: url(../media/pizarra.png);
+  color: whitesmoke;
+  width: 12em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-lounge {
+  background: url(../media/fondolounge.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parrafo-marketing {
+  text-align: left;
+}
+
+.duracion {
+  transition: 0.5s;
+}
+
+.imagen-bienvenida {
+  background: url(../media/fondoinicio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parrafo-bienvenida {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.certificados {
+  color: whitesmoke;
+  background: url(../media/pizarra.png);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.pie {
+  color: whitesmoke;
+  background-color: rgba(21, 34, 1, 0.39);
+  width: 100%;
+  transition: all 1s;
+  position: absolute;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
+}
+.pie:hover {
+  background-color: #002205ee;
+}
+
+/*# sourceMappingURL=miestilo.css.map */
