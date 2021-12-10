@@ -26,7 +26,7 @@
 // Mixin de color de fuente y fondo
 @mixin fuente-fondo {
     color: $colorGeneral;
-    background: url(../media/pizarra.png);
+    background-color: $backParrafos;
 }
 
 @mixin lista {

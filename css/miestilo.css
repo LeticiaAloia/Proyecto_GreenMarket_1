@@ -184,7 +184,7 @@ ul li:hover ul {
 
 .certificados {
   color: whitesmoke;
-  background: url(../media/pizarra.png);
+  background-color: rgba(21, 34, 1, 0.39);
   text-align: center;
   display: flex;
   flex-direction: column;
