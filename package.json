@@ -1,12 +1,12 @@
 {
-  "name": "aloia_leticia_sass",
+  "name": "proyecto-greenmarket",
   "version": "1.0.0",
-  "description": "",
+  "description": "mi proyecto para el curso de desarrollo web de coderhouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "leticia-aloia",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",

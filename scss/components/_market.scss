@@ -7,7 +7,7 @@
 // Estilo de las tarjetas del catálogo.
 .tarjeta {
     width: auto;
-    height: 335px;
+    height: 21rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,6 +16,11 @@
     margin-top: 0.5rem;
     box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
     border: 1px solid $colorGeneral;
+}
+.foto-producto {
+    height: 15rem;
+    display:flex;
+    align-items: center;
 }
 .tamanio-producto {
     width: 12rem;

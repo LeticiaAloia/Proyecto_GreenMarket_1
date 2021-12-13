@@ -101,7 +101,7 @@ ul li:hover ul {
 
 .tarjeta {
   width: auto;
-  height: 335px;
+  height: 21rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,6 +110,12 @@ ul li:hover ul {
   margin-top: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
   border: 1px solid whitesmoke;
+}
+
+.foto-producto {
+  height: 15rem;
+  display: flex;
+  align-items: center;
 }
 
 .tamanio-producto {
