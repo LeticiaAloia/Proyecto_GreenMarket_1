@@ -36,7 +36,7 @@
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
-.parrafo-bienvenida, .parrafo-marketing {
+.parrafo-marketing, .parrafo-bienvenida {
   font-family: "Outfit", sans-serif;
   color: whitesmoke;
   font-size: 1rem;
@@ -92,6 +92,49 @@ ul li:hover ul {
   color: #bee4be;
 }
 
+.imagen-bienvenida {
+  background: url(../media/fondoinicio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parrafo-bienvenida {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pie {
+  color: whitesmoke;
+  background-color: rgba(21, 34, 1, 0.39);
+  width: 100%;
+  transition: all 1s;
+  position: absolute;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
+}
+.pie:hover {
+  background-color: #002205ee;
+}
+
+.certificados {
+  color: whitesmoke;
+  background-color: rgba(21, 34, 1, 0.39);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
 .fondo-comercial {
   background-image: url(../media/fondocomerciales.png);
   background-size: cover;
@@ -126,27 +169,6 @@ ul li:hover ul {
   background-image: linear-gradient(#b99f9f, #fcf9f9);
 }
 
-.boton {
-  background: rgba(21, 34, 1, 0.39);
-  border: 0.2px solid whitesmoke;
-}
-.boton:hover {
-  background-color: #002205ee;
-  border: none;
-}
-
-.boton-venta {
-  background-color: rgba(21, 34, 1, 0.39);
-  width: 12em;
-  padding: 0.5rem 1rem;
-  border: 1px solid whitesmoke;
-  transition: background-color 1s;
-}
-.boton-venta:hover {
-  background-color: #002205ee;
-  color: #fcf9f9;
-}
-
 .pizarra-venta {
   font-size: 1em;
   font-family: "inlander";
@@ -171,51 +193,25 @@ ul li:hover ul {
   text-align: left;
 }
 
-.duracion {
-  transition: 0.5s;
+.boton {
+  background: rgba(21, 34, 1, 0.39);
+  border: 0.2px solid whitesmoke;
 }
-
-.imagen-bienvenida {
-  background: url(../media/fondoinicio.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.parrafo-bienvenida {
-  text-align: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.certificados {
-  color: whitesmoke;
-  background-color: rgba(21, 34, 1, 0.39);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: space-between;
-  padding: 1rem;
-  padding-left: 2rem;
-}
-
-.pie {
-  color: whitesmoke;
-  background-color: rgba(21, 34, 1, 0.39);
-  width: 100%;
-  transition: all 1s;
-  position: absolute;
-  margin-bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
-}
-.pie:hover {
+.boton:hover {
   background-color: #002205ee;
+  border: none;
+}
+
+.boton-venta {
+  background-color: rgba(21, 34, 1, 0.39);
+  width: 12em;
+  padding: 0.5rem 1rem;
+  border: 1px solid whitesmoke;
+  transition: background-color 1s;
+}
+.boton-venta:hover {
+  background-color: #002205ee;
+  color: #fcf9f9;
 }
 
 /*# sourceMappingURL=miestilo.css.map */

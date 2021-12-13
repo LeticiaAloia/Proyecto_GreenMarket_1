@@ -1,13 +1,18 @@
-// Importo extensiones base.
+// Importo partials de /base.
 @import "base/reseteos";
 @import "base/fuentes";
 @import "base/variables";
 @import "base/mixins";
 @import "base/mapas";
 @import "base/extends";
-// Importo extensiones components.
-@import "components/header";
-@import "components/market";
-@import "components/lounge";
-@import "components/generales";
-@import "components/footer";
+// Importo partials de /layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+// Importo partials de /pages.
+@import "pages/productos";
+@import "pages/market";
+@import "pages/lounge";
+// Importo partials de  /components.
+@import "components/botones.scss";
+

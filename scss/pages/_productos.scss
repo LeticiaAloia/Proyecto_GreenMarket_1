@@ -1,0 +1,10 @@
+.certificados {
+    @include fuente-fondo;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding: 1rem;
+    padding-left: 2rem;
+}
