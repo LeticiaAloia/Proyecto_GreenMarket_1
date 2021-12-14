@@ -1,26 +1,14 @@
 // Aplico extend a ambas clases.
 .boton {
     @extend %boton;
-    background: $backParrafos;
-    border: 0.2px solid $colorGeneral;
-
-    &:hover {
-        background-color: $verdeLogo;
-        border: none;
-    }
 }
+
 .boton-venta {
     @extend %boton;
-    background-color: $backParrafos;
     width: 12em;
     padding: 0.5rem 1rem;
-    border: 1px solid $colorGeneral;
-    transition: background-color 1s;
 
-    
     &:hover {
-       background-color: $verdeLogo;
-       color:rgb(252, 249, 249)
-    
+        color: $colorLinks;
     }
 }

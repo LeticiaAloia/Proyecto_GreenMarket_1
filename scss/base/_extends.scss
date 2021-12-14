@@ -9,6 +9,14 @@
     text-decoration: none;
     text-align: center; 
     font-family: "inlander";
+    background: $backParrafos;
+    border: 0.2px solid $colorGeneral;
+    transition: background-color 1s;
+
+    &:hover {
+        background-color: $verdeLogo;
+        border: none;
+    }
 }
 
 // Aplicado en "_generales", ".titulo".

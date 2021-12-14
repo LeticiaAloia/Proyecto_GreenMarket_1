@@ -23,6 +23,13 @@
   text-decoration: none;
   text-align: center;
   font-family: "inlander";
+  background: rgba(21, 34, 1, 0.39);
+  border: 0.2px solid whitesmoke;
+  transition: background-color 1s;
+}
+.boton-venta:hover, .boton:hover {
+  background-color: #002205ee;
+  border: none;
 }
 
 .titulo {
@@ -193,25 +200,12 @@ ul li:hover ul {
   text-align: left;
 }
 
-.boton {
-  background: rgba(21, 34, 1, 0.39);
-  border: 0.2px solid whitesmoke;
-}
-.boton:hover {
-  background-color: #002205ee;
-  border: none;
-}
-
 .boton-venta {
-  background-color: rgba(21, 34, 1, 0.39);
   width: 12em;
   padding: 0.5rem 1rem;
-  border: 1px solid whitesmoke;
-  transition: background-color 1s;
 }
 .boton-venta:hover {
-  background-color: #002205ee;
-  color: #fcf9f9;
+  color: #bee4be;
 }
 
 /*# sourceMappingURL=miestilo.css.map */
