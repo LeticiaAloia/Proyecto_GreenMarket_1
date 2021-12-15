@@ -1,6 +1,6 @@
 // Mixins.
 .fondo-comercial{
-    background-image: url(../media/fondocomerciales.avif);
+    background-image: url(../media/fondocomerciales.png);
     @include fondo-cuerpo;
 }
 
@@ -33,7 +33,7 @@
 .pizarra-venta {
     font-size: 1em;
     font-family: "inlander";
-    background: url(../media/pizarra.avif);
+    background: url(../media/pizarra.png);
     color: $colorGeneral;
     width: 12em;
     padding-top: 0.2em;
