@@ -36,9 +36,9 @@
   font-size: 1.5em;
   font-family: "inlander";
   color: whitesmoke;
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.avif);
   text-align: center;
-  padding: 3px 3px;
+  padding: auto;
   margin-bottom: 3px;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
@@ -79,7 +79,7 @@ ul li {
 ul li ul {
   position: absolute;
   display: none;
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.avif);
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 ul li ul li {
@@ -100,14 +100,13 @@ ul li:hover ul {
 }
 
 .imagen-bienvenida {
-  background: url(../media/fondoinicio.png);
+  background: url(../media/fondoinicio.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .parrafo-bienvenida {
-  text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -143,7 +142,7 @@ ul li:hover ul {
 }
 
 .fondo-comercial {
-  background-image: url(../media/fondocomerciales.png);
+  background-image: url(../media/fondocomerciales.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -179,7 +178,7 @@ ul li:hover ul {
 .pizarra-venta {
   font-size: 1em;
   font-family: "inlander";
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.avif);
   color: whitesmoke;
   width: 12em;
   padding-top: 0.2em;
@@ -190,7 +189,7 @@ ul li:hover ul {
 }
 
 .fondo-lounge {
-  background: url(../media/fondolounge.png);
+  background: url(../media/fondolounge.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

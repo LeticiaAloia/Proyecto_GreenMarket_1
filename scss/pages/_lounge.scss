@@ -1,8 +1,10 @@
 // Mixins.
 .fondo-lounge {
-    background: url(../media/fondolounge.png);
+    background: url(../media/fondolounge.avif);
     @include fondo-cuerpo;
 }
+
+
 
 // Extend.
 .parrafo-marketing {
