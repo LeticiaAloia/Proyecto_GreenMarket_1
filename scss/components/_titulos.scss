@@ -1,0 +1,10 @@
+// Extend en ambas clases.
+.titulo {
+    @extend %titulos;
+    font-size: 1.5em;
+}
+
+.subtitulo {
+    @extend %titulos;
+    font-size: 0.8em;
+}

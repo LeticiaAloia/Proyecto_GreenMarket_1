@@ -1,23 +1,12 @@
-// Fondo de pantalla.
+// Fondo de la página. Se repite en las páginas Productos y Contacto. Aplicado extend.
 .imagen-bienvenida {
     background: url(../media/fondoinicio.png);
-    @include fondo-cuerpo;
+    @extend %fondo-cuerpo;
 }
 
-// Extend.
-.titulo {
-    @extend %titulos;
-}
-
-// Aplicados mixins.
+// Aplicado extend.
 .parrafo-bienvenida {
     @extend %parrafo;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-
-
-
-
-
-

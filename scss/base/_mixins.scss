@@ -1,13 +1,7 @@
-@import "fuentes";
-@import "variables";
-@import "mapas";
-
-// Mixins
-
-// Aplico mapa.
+// Aplicado a header y footer.
 @mixin barras {
-    color: map-get($textos, color-textos);
-    background-color: map-get($textos, color-fondo);
+    color: $colorGeneral;
+    background-color: $backParrafos;
     width: 100%;
     transition: all 1s;
 
@@ -16,19 +10,13 @@
     }    
 }
 
-// Para fondos de las páginas. Podría ser un extend también.
-@mixin fondo-cuerpo {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-// Mixin de color de fuente y fondo
+// Mixin de color de fuente y fondo.
 @mixin fuente-fondo {
     color: $colorGeneral;
     background-color: $backParrafos;
 }
 
+// Modifica elementos de lista.
 @mixin lista {
     font-family: "inlander";
     display: inline-block;

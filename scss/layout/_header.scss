@@ -1,10 +1,10 @@
-// Estilo de fondo del menú.
+// Estilo de fondo del menú. Aplicado mixin.
 .pizarra-inicio {
     @include barras;
     margin-bottom: 2rem;
-    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+    box-shadow: $sombra-abajo;
 }
-// Submenú.
+// Submenú. Aplicado mixin.
 ul {
     list-style: none;
     font-size:0;
@@ -14,7 +14,7 @@ ul {
             position: absolute;
             display: none;
             background: url(../media/pizarra.png);
-            box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+            box-shadow: $sombra-abajo;
             li {
                 display: block;
             }
@@ -23,7 +23,7 @@ ul {
 }
 ul li:hover ul {
     display: block;
-    color: var(--colorGeneral);
+    color: $colorGeneral;
 }
 
 // Estilo de los vínculos.

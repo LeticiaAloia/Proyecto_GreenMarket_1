@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,33 +6,21 @@
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "inlander";
-  src: url(../../inlander/Inlander\ Texture.ttf);
-}
-@font-face {
-  font-family: "inlander";
-  src: url(../../inlander/Inlander\ Texture.ttf);
-}
-.boton-venta, .boton {
-  color: whitesmoke;
-  font-size: 0.9em;
-  padding: 0.5rem 1rem;
-  box-shadow: rgba(0, 0, 0, 0.5) -1px -10px -10px;
-  text-decoration: none;
-  text-align: center;
-  font-family: "inlander";
-  background: rgba(21, 34, 1, 0.39);
-  border: 0.2px solid whitesmoke;
-  transition: background-color 1s;
-}
-.boton-venta:hover, .boton:hover {
-  background-color: #002205ee;
-  border: none;
+html {
+  font-size: 20px;
 }
 
-.titulo {
-  font-size: 1.5em;
+@font-face {
+  font-family: "inlander";
+  src: url(../../inlander/Inlander\ Texture.ttf);
+}
+.fondo-lounge, .fondo-comercial, .imagen-bienvenida {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.subtitulo, .titulo {
   font-family: "inlander";
   color: whitesmoke;
   background: url(../media/pizarra.png);
@@ -47,14 +34,31 @@
   font-family: "Outfit", sans-serif;
   color: whitesmoke;
   font-size: 1rem;
-  background-color: rgba(21, 34, 1, 0.39);
+  background-color: rgba(29, 48, 1, 0.555);
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
+.boton-venta, .boton {
+  color: whitesmoke;
+  font-size: 0.9em;
+  padding: 0.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) -1px -10px -10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "inlander";
+  background: rgba(29, 48, 1, 0.555);
+  border: 0.2px solid whitesmoke;
+  transition: background-color 1s;
+}
+.boton-venta:hover, .boton:hover {
+  background-color: #002205ee;
+  border: none;
+}
+
 .pizarra-inicio {
   color: whitesmoke;
-  background-color: rgba(21, 34, 1, 0.39);
+  background-color: rgba(29, 48, 1, 0.555);
   width: 100%;
   transition: all 1s;
   margin-bottom: 2rem;
@@ -88,7 +92,7 @@ ul li ul li {
 
 ul li:hover ul {
   display: block;
-  color: var(--colorGeneral);
+  color: whitesmoke;
 }
 
 .vinculo {
@@ -99,21 +103,9 @@ ul li:hover ul {
   color: #bee4be;
 }
 
-.imagen-bienvenida {
-  background: url(../media/fondoinicio.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.parrafo-bienvenida {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pie {
   color: whitesmoke;
-  background-color: rgba(21, 34, 1, 0.39);
+  background-color: rgba(29, 48, 1, 0.555);
   width: 100%;
   transition: all 1s;
   position: absolute;
@@ -123,15 +115,24 @@ ul li:hover ul {
   flex-wrap: wrap;
   align-items: center;
   margin-top: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 .pie:hover {
   background-color: #002205ee;
 }
 
+.imagen-bienvenida {
+  background: url(../media/fondoinicio.png);
+}
+
+.parrafo-bienvenida {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .certificados {
   color: whitesmoke;
-  background-color: rgba(21, 34, 1, 0.39);
+  background-color: rgba(29, 48, 1, 0.555);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -143,9 +144,6 @@ ul li:hover ul {
 
 .fondo-comercial {
   background-image: url(../media/fondocomerciales.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .tarjeta {
@@ -155,7 +153,7 @@ ul li:hover ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(#b99f9f, #fcf9f9);
+  background-image: linear-gradient(#f1db9d, #fcfbf9);
   margin-top: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
   border: 1px solid whitesmoke;
@@ -172,7 +170,7 @@ ul li:hover ul {
 }
 
 .fondo-producto {
-  background-image: linear-gradient(#b99f9f, #fcf9f9);
+  background-image: linear-gradient(#f1db9d, #fcfbf9);
 }
 
 .pizarra-venta {
@@ -190,9 +188,6 @@ ul li:hover ul {
 
 .fondo-lounge {
   background: url(../media/fondolounge.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .parrafo-marketing {
@@ -205,6 +200,14 @@ ul li:hover ul {
 }
 .boton-venta:hover {
   color: #bee4be;
+}
+
+.titulo {
+  font-size: 1.5em;
+}
+
+.subtitulo {
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=miestilo.css.map */

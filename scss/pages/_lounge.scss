@@ -1,12 +1,10 @@
-// Mixins.
+// Aplicado extend.
 .fondo-lounge {
     background: url(../media/fondolounge.png);
-    @include fondo-cuerpo;
+    @extend %fondo-cuerpo;
 }
 
-
-
-// Extend.
+// Aplicado extend.
 .parrafo-marketing {
     @extend %parrafo;
     text-align: left;

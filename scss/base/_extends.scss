@@ -1,8 +1,35 @@
-@import "mapas";
+// Para fondos de las páginas.
+%fondo-cuerpo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-// Aplicado en "_market", ".boton" y ".boton-venta".
+
+// Aplicado en partial "titulos", clases "titulo" y "subtitulo".
+%titulos {
+    font-family: "inlander";
+    color: $colorGeneral;
+    background: url(../media/pizarra.png);
+    text-align: center;
+    padding: auto;
+    margin-bottom: 3px;
+    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+}
+
+// Aplicado en partial "index", clase "parrafo-bienvenida" y "_lounge", clase "parrafo-marketing".
+%parrafo {
+    font-family: "Outfit", sans-serif;
+    color: $colorGeneral;
+    font-size: 1rem;
+    background-color: $backParrafos;
+    margin: auto;
+    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+}
+
+// Aplicado en partial "botones", clases "boton" y "boton-venta".
 %boton {
-    color: map-get($textos, color-textos);
+    color: $colorGeneral;
     font-size: 0.9em;
     padding: 0.5rem 1rem;
     box-shadow: rgb(0 0 0 / 50%) -1px -10px -10px;
@@ -19,24 +46,4 @@
     }
 }
 
-// Aplicado en "_generales", ".titulo".
-%titulos {
-    font-size: 1.5em;
-    font-family: "inlander";
-    color: $colorGeneral;
-    background: url(../media/pizarra.png);
-    text-align: center;
-    padding: auto;
-    margin-bottom: 3px;
-    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
-}
 
-// Aplicado en "_generales", ".parrafo-bienvenida" y "_lounge", ".parrafo-marketing".
-%parrafo {
-    font-family: "Outfit", sans-serif;
-    color: $colorGeneral;
-    font-size: 1rem;
-    background-color: $backParrafos;
-    margin: auto;
-    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
-}

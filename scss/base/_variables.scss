@@ -1,9 +1,15 @@
 // Variables de color.
 $colorGeneral: rgb(245, 245, 245);
-$backParrafos: rgba(21, 34, 1, 0.39);
+$backParrafos: rgba(29, 48, 1, 0.555);
 $verdeLogo: #002205ee;
 $colorLinks: rgb(190, 228, 190);
 
+// Gradiente.
+$gradiente: linear-gradient(rgb(241, 219, 157), rgb(252, 251, 249));
+
+// Borde sombreado.
+$sombra-abajo: rgb(0 0 0 / 50%) 1px 10px 10px;
+$sombra-arriba: rgb(0 0 0 / 50%) 1px -10px 10px;
 
 
 

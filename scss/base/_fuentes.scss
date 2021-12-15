@@ -1,8 +1,13 @@
-// Fontface, fuentes en carpetas.
+// Tamaño rem.
+html {
+    font-size: 20px;
+}
+
+// Fontface, fuentes en carpeta.
 @font-face {
     font-family: "inlander";
     src: url(../../inlander/Inlander\ Texture.ttf);
 }
 
-// Goolge font.
+// Link a Goolge Font.
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');

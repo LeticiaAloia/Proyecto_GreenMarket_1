@@ -1,3 +1,4 @@
+// Aplicado mixin.
 .pie {
     @include barras;
     position: absolute;
@@ -7,5 +8,5 @@
     flex-wrap: wrap;
     align-items: center;
     margin-top: 3rem;
-    box-shadow: rgb(0 0 0 / 50%) 1px -10px 10px;    
+    box-shadow: $sombra-abajo;    
 }
