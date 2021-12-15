@@ -1,13 +1,17 @@
-// Aplicado extend.
+// Aplicado mixin.
 .fondo-lounge {
     background: url(../media/fondolounge.png);
-    @extend %fondo-cuerpo;
+    @include fondo-cuerpo;
 }
 
 // Aplicado extend.
 .parrafo-marketing {
     @extend %parrafo;
     text-align: left;
+}
+
+.carousel-sombra {
+    box-shadow: $sombraAbajo;
 }
 
 

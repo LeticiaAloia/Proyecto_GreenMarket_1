@@ -1,11 +1,3 @@
-// Para fondos de las páginas.
-%fondo-cuerpo {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
 // Aplicado en partial "titulos", clases "titulo" y "subtitulo".
 %titulos {
     font-family: "inlander";
@@ -14,7 +6,7 @@
     text-align: center;
     padding: auto;
     margin-bottom: 3px;
-    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+    box-shadow: $sombraAbajo;
 }
 
 // Aplicado en partial "index", clase "parrafo-bienvenida" y "_lounge", clase "parrafo-marketing".
@@ -24,7 +16,7 @@
     font-size: 1rem;
     background-color: $backParrafos;
     margin: auto;
-    box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+    box-shadow: $sombraAbajo;
 }
 
 // Aplicado en partial "botones", clases "boton" y "boton-venta".
@@ -32,7 +24,7 @@
     color: $colorGeneral;
     font-size: 0.9em;
     padding: 0.5rem 1rem;
-    box-shadow: rgb(0 0 0 / 50%) -1px -10px -10px;
+    box-shadow: $sombraAbajo;
     text-decoration: none;
     text-align: center; 
     font-family: "inlander";

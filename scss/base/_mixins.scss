@@ -10,6 +10,13 @@
     }    
 }
 
+// Para fondo de las páginas. Por algún motivo que desconozco, no funcionó como extend.
+@mixin fondo-cuerpo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 // Mixin de color de fuente y fondo.
 @mixin fuente-fondo {
     color: $colorGeneral;
@@ -25,4 +32,17 @@
     position: relative;
     font-size: 1rem;
 } 
+
+// Propiedades que se repiten.
+@mixin parametros($ancho, $alto, $display) {
+    width: $ancho;
+    height: $alto;
+    display: $display;
+}
+
+// Para los display flex.
+@mixin flex($justificar, $alinear) {
+    justify-content: $justificar;
+    align-items: $alinear;
+}
 

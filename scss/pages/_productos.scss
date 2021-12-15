@@ -1,11 +1,11 @@
 // Clase para el panel de certificados orgánicos. Aplicado mixin.
 .certificados {
     @include fuente-fondo;
+    @include flex(center, space-between);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: space-between;
     padding: 1rem;
     padding-left: 2rem;
+    box-shadow: $sombraAbajo;
 }

@@ -1,20 +1,17 @@
-// Fondo de las cuatro páginas de Market. Aplicado extend.
+// Fondo de las cuatro páginas de Market. Aplicado mixin.
 .fondo-comercial{
     background-image: url(../media/fondocomerciales.png);
-    @extend %fondo-cuerpo;
+    @include fondo-cuerpo;
 }
 
 // Clases para las tarjetas del catálogo.
 .tarjeta {
-    width: auto;
-    height: 21rem;
-    display: flex;
+    @include parametros(auto, 21rem, flex);
+    @include flex(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: $gradiente; 
     margin-top: 0.5rem;
-    box-shadow: $sombra-abajo;
+    box-shadow: $sombraAbajo;
     border: 1px solid $colorGeneral;
 }
 .foto-producto {
@@ -29,6 +26,7 @@
     background-image: $gradiente;
 }
 .pizarra-venta {
+    @include flex(center, center);
     font-size: 1em;
     font-family: "inlander";
     background: url(../media/pizarra.png);
@@ -37,6 +35,4 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }

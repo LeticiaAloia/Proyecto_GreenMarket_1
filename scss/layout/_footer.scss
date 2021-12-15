@@ -1,12 +1,11 @@
 // Aplicado mixin.
 .pie {
     @include barras;
+    @include flex(space-around, center);
     position: absolute;
     margin-bottom: 0;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
     margin-top: 3rem;
-    box-shadow: $sombra-abajo;    
+    box-shadow: $sombraAbajo;    
 }

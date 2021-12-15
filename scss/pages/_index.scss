@@ -1,7 +1,7 @@
-// Fondo de la página. Se repite en las páginas Productos y Contacto. Aplicado extend.
+// Fondo de la página. Se repite en las páginas Productos y Contacto. Aplicado mixin.
 .imagen-bienvenida {
     background: url(../media/fondoinicio.png);
-    @extend %fondo-cuerpo;
+    @include fondo-cuerpo;
 }
 
 // Aplicado extend.

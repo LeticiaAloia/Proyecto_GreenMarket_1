@@ -14,12 +14,6 @@ html {
   font-family: "inlander";
   src: url(../../inlander/Inlander\ Texture.ttf);
 }
-.fondo-lounge, .fondo-comercial, .imagen-bienvenida {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .subtitulo, .titulo {
   font-family: "inlander";
   color: whitesmoke;
@@ -43,7 +37,7 @@ html {
   color: whitesmoke;
   font-size: 0.9em;
   padding: 0.5rem 1rem;
-  box-shadow: rgba(0, 0, 0, 0.5) -1px -10px -10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
   text-decoration: none;
   text-align: center;
   font-family: "inlander";
@@ -108,12 +102,12 @@ ul li:hover ul {
   background-color: rgba(29, 48, 1, 0.555);
   width: 100%;
   transition: all 1s;
+  justify-content: space-around;
+  align-items: center;
   position: absolute;
   margin-bottom: 0;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  align-items: center;
   margin-top: 3rem;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
@@ -123,6 +117,9 @@ ul li:hover ul {
 
 .imagen-bienvenida {
   background: url(../media/fondoinicio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .parrafo-bienvenida {
@@ -133,26 +130,30 @@ ul li:hover ul {
 .certificados {
   color: whitesmoke;
   background-color: rgba(29, 48, 1, 0.555);
+  justify-content: center;
+  align-items: space-between;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: space-between;
   padding: 1rem;
   padding-left: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
 .fondo-comercial {
   background-image: url(../media/fondocomerciales.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .tarjeta {
   width: auto;
   height: 21rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: linear-gradient(#f1db9d, #fcfbf9);
   margin-top: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
@@ -174,6 +175,8 @@ ul li:hover ul {
 }
 
 .pizarra-venta {
+  justify-content: center;
+  align-items: center;
   font-size: 1em;
   font-family: "inlander";
   background: url(../media/pizarra.png);
@@ -182,16 +185,21 @@ ul li:hover ul {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fondo-lounge {
   background: url(../media/fondolounge.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .parrafo-marketing {
   text-align: left;
+}
+
+.carousel-sombra {
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
 .boton-venta {
