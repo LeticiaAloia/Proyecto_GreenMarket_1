@@ -17,7 +17,7 @@ html {
 .subtitulo, .titulo {
   font-family: "inlander";
   color: whitesmoke;
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.webp);
   text-align: center;
   padding: auto;
   margin-bottom: 3px;
@@ -77,7 +77,7 @@ ul li {
 ul li ul {
   position: absolute;
   display: none;
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.webp);
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 ul li ul li {
@@ -141,7 +141,7 @@ ul li:hover ul {
 }
 
 .fondo-comercial {
-  background-image: url(../media/fondocomerciales.png);
+  background-image: url(../media/fondocomerciales.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -179,7 +179,7 @@ ul li:hover ul {
   align-items: center;
   font-size: 1em;
   font-family: "inlander";
-  background: url(../media/pizarra.png);
+  background: url(../media/pizarra.webp);
   color: whitesmoke;
   width: 12em;
   padding-top: 0.2em;
@@ -188,7 +188,7 @@ ul li:hover ul {
 }
 
 .fondo-lounge {
-  background: url(../media/fondolounge.png);
+  background: url(../media/fondolounge.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

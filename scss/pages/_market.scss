@@ -1,6 +1,6 @@
 // Fondo de las cuatro páginas de Market. Aplicado mixin.
 .fondo-comercial{
-    background-image: url(../media/fondocomerciales.png);
+    background-image: url(../media/fondocomerciales.webp);
     @include fondo-cuerpo;
 }
 
@@ -29,7 +29,7 @@
     @include flex(center, center);
     font-size: 1em;
     font-family: "inlander";
-    background: url(../media/pizarra.png);
+    background: url(../media/pizarra.webp);
     color: $colorGeneral;
     width: 12em;
     padding-top: 0.2em;
