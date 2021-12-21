@@ -1,12 +1,13 @@
 // Aplico extend a ambas clases.
 .boton {
     @extend %boton;
+    padding: 1em 1em;
 }
 
 .boton-venta {
     @extend %boton;
     width: 12em;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
 
     &:hover {
         color: $colorLinks;

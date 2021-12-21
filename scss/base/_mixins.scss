@@ -25,7 +25,7 @@
 
 // Modifica elementos de lista.
 @mixin lista {
-    font-family: "inlander";
+    font-family: "inlander", "Times New Roman";
     display: inline-block;
     color: $colorGeneral;
     width: 8rem;

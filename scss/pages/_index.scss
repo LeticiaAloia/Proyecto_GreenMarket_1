@@ -1,8 +1,9 @@
 // Fondo de la página. Se repite en las páginas Productos y Contacto. Aplicado mixin.
 .imagen-bienvenida {
-    background: url(../media/fondoinicio.png);
+    background: url(../media/fondoinicio.webp);
     @include fondo-cuerpo;
 }
+
 
 // Aplicado extend.
 .parrafo-bienvenida {

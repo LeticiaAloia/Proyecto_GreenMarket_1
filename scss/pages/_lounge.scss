@@ -10,8 +10,9 @@
     text-align: left;
 }
 
-.carousel-sombra {
+// Estilo de las fotos del carrusel.
+.foto-carrusel {
+    width: 32rem;
+    height: auto;
     box-shadow: $sombraAbajo;
 }
-
-

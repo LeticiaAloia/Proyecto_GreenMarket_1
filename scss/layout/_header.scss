@@ -5,6 +5,11 @@
     box-shadow: $sombraAbajo;
 }
 
+.logo {
+    height: auto;
+    width: 2,5rem;
+}
+
 // Submenú. Aplicado mixin.
 ul {
     list-style: none;
