@@ -13,3 +13,21 @@
         color: $colorLinks;
     }
 }
+
+.boton-error {
+    @extend %boton;
+    width: 20em;
+    
+    &:hover {
+        color: $colorLinks;
+    }
+}
+
+.vinculo {
+    color: $colorGeneral;
+    text-decoration: none;
+
+    &:hover {
+        color: $colorLinks;
+    }
+}

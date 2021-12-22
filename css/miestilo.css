@@ -33,7 +33,7 @@ html {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
-.boton-venta, .boton {
+.boton-error, .boton-venta, .boton {
   color: whitesmoke;
   font-size: 0.9em;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
@@ -44,7 +44,7 @@ html {
   border: 0.2px solid whitesmoke;
   transition: background-color 1s;
 }
-.boton-venta:hover, .boton:hover {
+.boton-error:hover, .boton-venta:hover, .boton:hover {
   background-color: #002205ee;
   border: none;
 }
@@ -62,8 +62,15 @@ html {
 }
 
 .logo {
-  height: auto;
-  width: 2, 5rem;
+  width: 3em;
+  height: 3em;
+  transition: 1s;
+}
+.logo:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
 }
 
 ul {
@@ -71,7 +78,7 @@ ul {
   font-size: 0;
 }
 ul li {
-  font-family: "inlander", "Times New Roman";
+  font-family: "inlander";
   display: inline-block;
   color: whitesmoke;
   width: 8rem;
@@ -114,7 +121,7 @@ ul li:hover ul {
   flex-wrap: wrap;
   padding-top: 1em;
   margin-top: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
   font-family: "Outfit", sans-serif;
 }
 .pie:hover {
@@ -122,8 +129,15 @@ ul li:hover ul {
 }
 
 .logos-redes {
-  width: 1, 5rem;
-  height: 1, 5rem;
+  width: 2em;
+  height: 2em;
+  transition: all 1s;
+}
+.logos-redes:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
 }
 
 .imagen-bienvenida {
@@ -131,6 +145,12 @@ ul li:hover ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.logo-animado {
+  width: 17rem;
+  height: 17rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
 .parrafo-bienvenida {
@@ -217,6 +237,12 @@ ul li:hover ul {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
+.error {
+  width: 40rem;
+  height: auto;
+  object-fit: contain;
+}
+
 .boton {
   padding: 1em 1em;
 }
@@ -226,6 +252,21 @@ ul li:hover ul {
   padding: 0.2rem 1rem;
 }
 .boton-venta:hover {
+  color: #bee4be;
+}
+
+.boton-error {
+  width: 20em;
+}
+.boton-error:hover {
+  color: #bee4be;
+}
+
+.vinculo {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.vinculo:hover {
   color: #bee4be;
 }
 
@@ -243,8 +284,8 @@ ul li:hover ul {
 }
 
 img {
-  max-height: 100%;
   max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 

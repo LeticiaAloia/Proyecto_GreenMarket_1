@@ -6,8 +6,13 @@
 }
 
 .logo {
-    height: auto;
-    width: 2,5rem;
+    width: 3em;
+    height: 3em;
+    transition: 1s;
+
+    &:hover {
+        @include animaciones(scale(1.1));
+    }
 }
 
 // Submenú. Aplicado mixin.

@@ -1,6 +1,6 @@
 // Aplicado en partial "titulos", clases "titulo" y "subtitulo".
 %titulos {
-    font-family: "inlander";
+    font-family: $decorativa;
     color: $colorGeneral;
     background: url(../media/pizarra.webp);
     text-align: center;
@@ -11,7 +11,7 @@
 
 // Aplicado en partial "index", clase "parrafo-bienvenida" y "_lounge", clase "parrafo-marketing".
 %parrafo {
-    font-family: "Outfit", sans-serif;
+    font-family: $general;
     color: $colorGeneral;
     font-size: 1rem;
     background-color: $backParrafos;
@@ -23,11 +23,10 @@
 %boton {
     color: $colorGeneral;
     font-size: 0.9em;
-    // padding: 0.5rem 1rem;
     box-shadow: $sombraAbajo;
     text-decoration: none;
     text-align: center; 
-    font-family: "inlander";
+    font-family: $decorativa;
     background: $backParrafos;
     border: 0.2px solid $colorGeneral;
     transition: background-color 1s;

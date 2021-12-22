@@ -25,7 +25,7 @@
 
 // Modifica elementos de lista.
 @mixin lista {
-    font-family: "inlander", "Times New Roman";
+    font-family: $decorativa;
     display: inline-block;
     color: $colorGeneral;
     width: 8rem;
@@ -44,5 +44,12 @@
 @mixin flex($justificar, $alinear) {
     justify-content: $justificar;
     align-items: $alinear;
+}
+
+@mixin animaciones($transformaciones) {
+    transform: $transformaciones;
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
 }
 
