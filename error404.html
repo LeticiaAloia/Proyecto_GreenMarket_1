@@ -5,11 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- <link rel="stylesheet" href="http://greenmarketlounge.000webhostapp.com/css/miestilo.css"> -->
   <!-- Favicon. -->
-  <link rel="icon" href="media/logomarketnav.webp">
+  <link rel="icon" href="http://greenmarketlounge.000webhostapp.com/media/logomarketnav.webp">
 
-  <!-- CSS. -->
-  <link rel="stylesheet" href="css/miestilo.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+    .error {
+    width: 700px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 50px;
+    }
+
+    .boton-error {
+      color: rgb(245, 245, 245);
+      font-size: 40px;
+      font-weight: bolder;
+      box-shadow: rgb(0 0 0 / 50%) 1px 10px 10px;
+      text-decoration: none;
+      text-align: center; 
+      font-family: "Outfit", sans-serif;
+      background-color: rgba(29, 48, 1, 0.555);
+      border: 0.2px solid rgb(245, 245, 245);
+      transition: all 1s;
+      width: 150px;
+    }
+    .boton-error:hover {
+        color: rgb(190, 228, 190);
+        background-color: #002205ee;
+    }
+    
+
+    .vinculo {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    }
+    .vinculo:hover {
+        color: rgb(190, 228, 190);
+    }
+    
+  </style>
+
   <!-- Bootstrap. -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -21,15 +59,15 @@
 <!-- Grid sytem de Bootstrap, resuelto en una fila, una columna. Modificado con mi CSS. -->
 <div class="container">
     <div class="row text-center">
-      <!-- Breakpoints. -->
+      <!-- Imagen con mensaje de error. Realizada con Canva para este proyecto. -->
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <img src="media/error404.webp" alt="404 Error - Page not found" class="img-fluid error">
+        <img src="http://greenmarketlounge.000webhostapp.com/media/error404.webp" alt="404 Error - No se encontró la página" class="img-fluid error">
      </div>
     
       <div>
-        <!-- Botón "Enviar." -->
+        <!-- Botón "Volver a Inicio" -->
         <div class="col-lg-12 col-md-12 col-sm-12 d-grid gap-2 justify-content-center mt-3">
-            <button type="button" class="boton-venta btn-sm"><a href="index.html" class="vinculo">Volver a Inicio</a></button>
+            <button type="button" class="boton-error btn-sm"><a href="https://greenmarketlounge.000webhostapp.com" class="vinculo">Volver a Inicio</a></button>
         </div>
       </div>
     </div>
