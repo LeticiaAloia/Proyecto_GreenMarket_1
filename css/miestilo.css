@@ -33,7 +33,7 @@ html {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
-.boton-error, .boton-venta, .boton {
+.boton-venta, .boton {
   color: whitesmoke;
   font-size: 0.9em;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
@@ -44,7 +44,7 @@ html {
   border: 0.2px solid whitesmoke;
   transition: background-color 1s;
 }
-.boton-error:hover, .boton-venta:hover, .boton:hover {
+.boton-venta:hover, .boton:hover {
   background-color: #002205ee;
   border: none;
 }
@@ -237,12 +237,6 @@ ul li:hover ul {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
-.error {
-  width: 40rem;
-  height: auto;
-  object-fit: contain;
-}
-
 .boton {
   padding: 1em 1em;
 }
@@ -252,21 +246,6 @@ ul li:hover ul {
   padding: 0.2rem 1rem;
 }
 .boton-venta:hover {
-  color: #bee4be;
-}
-
-.boton-error {
-  width: 20em;
-}
-.boton-error:hover {
-  color: #bee4be;
-}
-
-.vinculo {
-  color: whitesmoke;
-  text-decoration: none;
-}
-.vinculo:hover {
   color: #bee4be;
 }
 
