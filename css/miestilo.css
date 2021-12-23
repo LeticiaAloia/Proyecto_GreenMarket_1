@@ -24,6 +24,16 @@ html {
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
 
+.pie, .pizarra-inicio {
+  color: whitesmoke;
+  background-color: rgba(29, 48, 1, 0.555);
+  width: 100%;
+  transition: all 1s;
+}
+.pie:hover, .pizarra-inicio:hover {
+  background-color: #002205ee;
+}
+
 .parrafo-marketing, .parrafo-bienvenida {
   font-family: "Outfit", sans-serif;
   color: whitesmoke;
@@ -45,25 +55,19 @@ html {
   transition: background-color 1s;
 }
 .boton-venta:hover, .boton:hover {
+  color: #bee4be;
   background-color: #002205ee;
   border: none;
 }
 
 .pizarra-inicio {
-  color: whitesmoke;
-  background-color: rgba(29, 48, 1, 0.555);
-  width: 100%;
-  transition: all 1s;
   margin-bottom: 2rem;
   box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
 }
-.pizarra-inicio:hover {
-  background-color: #002205ee;
-}
 
 .logo {
-  width: 3em;
-  height: 3em;
+  width: 3rem;
+  height: 3rem;
   transition: 1s;
 }
 .logo:hover {
@@ -103,29 +107,23 @@ ul li:hover ul {
 .vinculo {
   color: whitesmoke;
   text-decoration: none;
+  transition: all 1s;
 }
 .vinculo:hover {
   color: #bee4be;
 }
 
 .pie {
-  color: whitesmoke;
-  background-color: rgba(29, 48, 1, 0.555);
-  width: 100%;
-  transition: all 1s;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   position: absolute;
   margin-bottom: 0;
-  display: flex;
   flex-wrap: wrap;
   padding-top: 1em;
   margin-top: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px -10px 10px;
+  box-shadow: rgba(141, 138, 138, 0.5) 1px -10px 10px;
   font-family: "Outfit", sans-serif;
-}
-.pie:hover {
-  background-color: #002205ee;
 }
 
 .logos-redes {
@@ -147,12 +145,6 @@ ul li:hover ul {
   background-attachment: fixed;
 }
 
-.logo-animado {
-  width: 17rem;
-  height: 17rem;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 10px 10px;
-}
-
 .parrafo-bienvenida {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -161,10 +153,9 @@ ul li:hover ul {
 .certificados {
   color: whitesmoke;
   background-color: rgba(29, 48, 1, 0.555);
+  display: flex;
   justify-content: center;
   align-items: space-between;
-  text-align: center;
-  display: flex;
   flex-direction: column;
   padding: 1rem;
   padding-left: 2rem;
@@ -179,10 +170,9 @@ ul li:hover ul {
 }
 
 .tarjeta {
-  width: auto;
-  height: 21rem;
+  width: 21rem;
+  height: auto;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(#f1db9d, #fcfbf9);
@@ -192,8 +182,8 @@ ul li:hover ul {
 }
 
 .foto-producto {
-  height: 15rem;
   width: auto;
+  height: 15rem;
   display: flex;
   align-items: center;
 }
@@ -208,16 +198,17 @@ ul li:hover ul {
 }
 
 .pizarra-venta {
+  width: 12rem;
+  height: auto;
+  font-family: "inlander";
+  font-size: 1em;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1em;
-  font-family: "inlander";
   background: url(../media/pizarra.webp);
   color: whitesmoke;
-  width: 12em;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
-  display: flex;
 }
 
 .fondo-lounge {
@@ -225,10 +216,6 @@ ul li:hover ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.parrafo-marketing {
-  text-align: left;
 }
 
 .foto-carrusel {
@@ -245,9 +232,6 @@ ul li:hover ul {
   width: 12em;
   padding: 0.2rem 1rem;
 }
-.boton-venta:hover {
-  color: #bee4be;
-}
 
 .titulo {
   font-size: 1.5em;
@@ -255,11 +239,6 @@ ul li:hover ul {
 
 .subtitulo {
   font-size: 0.8em;
-}
-
-.punto {
-  font-family: "Outfit", sans-serif;
-  font-size: 0.8rem;
 }
 
 img {

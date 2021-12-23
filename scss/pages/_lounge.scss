@@ -7,12 +7,10 @@
 // Aplicado extend.
 .parrafo-marketing {
     @extend %parrafo;
-    text-align: left;
 }
 
-// Estilo de las fotos del carrusel.
+// Estilo de las fotos del carrusel. Aplico mixin.
 .foto-carrusel {
-    width: 32rem;
-    height: auto;
+    @include tamanio(32rem, auto);
     box-shadow: $sombraAbajo;
 }

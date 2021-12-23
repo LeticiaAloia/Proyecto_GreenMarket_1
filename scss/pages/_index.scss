@@ -4,13 +4,6 @@
     @include fondo-cuerpo;
 }
 
-.logo-animado {
-    width: 17rem;
-    height: 17rem;
-    box-shadow: $sombraAbajo;
-    
-}
-
 // Aplicado extend.
 .parrafo-bienvenida {
     @extend %parrafo;

@@ -8,8 +8,4 @@
     @extend %boton;
     width: 12em;
     padding: 0.2rem 1rem;
-
-    &:hover {
-        color: $colorLinks;
-    }
 }

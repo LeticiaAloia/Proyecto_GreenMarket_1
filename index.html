@@ -41,6 +41,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <!-- Lista de vínculos relativos. -->
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="vinculo" href="pages/productos.html">Productos</a>
@@ -65,6 +66,7 @@
               <a class="vinculo" href="pages/contacto.html">Contacto</a>
             </li>
           </ul>
+          <!-- Fin de la lista. -->
         </div>
       </div>
     </nav>
@@ -80,9 +82,10 @@
         <!-- Puse breakpoints porque se me rompía cuando achicaba la pantalla. -->
         <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
           <!-- Animación AOS. Duración modificada. -->
-          <div data-aos="fade-up"data-aos-anchor-placement="top-center"></div>
             <div data-aos="fade-right" data-aos-duration="2000">
-            <!-- Imagen logo de la empresa. Realizado con Canva. Aplicada "imagen fluid" de BS. -->
+            <!-- Imagen logo de la empresa, realizada con Canva para este proyecto. Aplicada "imagen fluid" de BS. 
+            No conseguí, a pesar de las muchas pruebas, modificar el tamaño con un contenedor en css, por lo que especifiqué el 
+            tamaño en html. -->
             <img src="media/logomarket.webp" alt="Logo de la empresa" class="img-fluid" width="350px" height="350px">
           </div>
         </div>
@@ -91,6 +94,7 @@
           <!-- Animación AOS, modificada duración. -->
           <div data-aos="fade-left" data-aos-duration="2000">
             <div>
+              <!-- H1 -->
               <h1 class="titulo text-center">Mercado orgánico</h1>
             </div>
             <div class="parrafo-bienvenida text-center">
@@ -111,7 +115,7 @@
   <!-- Pie. -->
   <footer class="pie">
     <!-- Lista de cuatro enlaces absolutos. -->
-    <ul class="">
+    <ul>
       <li>
         <div class="logos-redes">
           <a href="https://www.facebook.com"><img src="media/logoface.webp" alt="Vínculo a Facebook"></a>
@@ -132,14 +136,20 @@
           <a href="https://www.whatsapp.com/business"><img src="media/logowhapp.webp" alt="Vínculo a Whatsapp"></a>
         </div>
       </li>
-      <li>Dirección</li>
-      <li>Teléfono</li>
-      <li>E-mail</li>
     </ul>
+    <!-- Fin de la lista. -->
+    <div>
+      <p>Av. Dorrego 1789</p>
+    </div>
+    <div>
+      <p>(011) 7654-3210</p>
+    </div>
+    <div>
+      <p>greenmarket@lounge.com</p>
+    </div>
     <div>
       <p>Todos los derechos reservados</p>
     </div>
-    <!-- Fin de la lista. -->
   </footer>
   <!-- Fin pie. -->
 

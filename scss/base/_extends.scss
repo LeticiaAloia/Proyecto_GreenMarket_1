@@ -9,6 +9,18 @@
     box-shadow: $sombraAbajo;
 }
 
+// Aplicado a header y footer.
+%barras {
+    color: $colorGeneral;
+    background-color: $backParrafos;
+    width: 100%;
+    transition: all 1s;
+
+    &:hover {
+        background-color: $verdeLogo;
+    }    
+}
+
 // Aplicado en partial "index", clase "parrafo-bienvenida" y "_lounge", clase "parrafo-marketing".
 %parrafo {
     font-family: $general;
@@ -32,9 +44,8 @@
     transition: background-color 1s;
 
     &:hover {
+        color: $colorLinks;
         background-color: $verdeLogo;
         border: none;
     }
 }
-
-

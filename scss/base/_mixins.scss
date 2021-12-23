@@ -1,23 +1,18 @@
-// Aplicado a header y footer.
-@mixin barras {
-    color: $colorGeneral;
-    background-color: $backParrafos;
-    width: 100%;
-    transition: all 1s;
-
-    &:hover {
-        background-color: $verdeLogo;
-    }    
-}
-
-// Para fondo de las páginas. Por algún motivo que desconozco, no funcionó como extend.
+// Para fondo de las páginas. Por algún motivo que desconozco, no funcionó como extend. Aplicado en los partials "index",
+// "lounge" y "market".
 @mixin fondo-cuerpo {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-// Mixin de color de fuente y fondo.
+// Con variables. Establece tamaño y familia de fuentes.
+@mixin fuente($familia, $tamanio) {
+    font-family: $familia;
+    font-size: $tamanio;
+}
+
+// Mixin de color de fuente y fondo. Aplicado en "productos", clase "certificados".
 @mixin fuente-fondo {
     color: $colorGeneral;
     background-color: $backParrafos;
@@ -33,23 +28,23 @@
     font-size: 1rem;
 } 
 
-// Propiedades que se repiten.
-@mixin parametros($ancho, $alto, $display) {
+// Con variables. Aplicado en todas las clases que modifican tamaño de imágenes.
+@mixin tamanio($ancho, $alto) {
     width: $ancho;
     height: $alto;
-    display: $display;
 }
 
-// Para los display flex.
-@mixin flex($justificar, $alinear) {
+// Con variables. Para los display flex.
+@mixin flex($desplegar, $justificar, $alinear) {
+    display: $desplegar;
     justify-content: $justificar;
     align-items: $alinear;
 }
 
+// Con variables. Para las animaciones de logos en header y footer.
 @mixin animaciones($transformaciones) {
     transform: $transformaciones;
     -webkit-transform: $transformaciones;
     -o-transform: $transformaciones;
     -moz-transform: $transformaciones;
 }
-

@@ -4,10 +4,11 @@
     @include fondo-cuerpo;
 }
 
-// Clases para las tarjetas del catálogo.
+// Clases para las tarjetas del catálogo. Aplico mixins.
 .tarjeta {
-    @include parametros(auto, 21rem, flex);
-    @include flex(center, center);
+    @include tamanio(21rem, auto);
+    display: flex;
+    align-items: center;
     flex-direction: column;
     background-image: $gradiente; 
     margin-top: 0.5rem;
@@ -15,26 +16,22 @@
     border: 1px solid $colorGeneral;
 }
 .foto-producto {
-    height: 15rem;
-    width: auto;
-    display:flex;
+    @include tamanio(auto, 15rem);
+    display: flex;
     align-items: center;
 }
 .tamanio-producto {
-    width: 12rem;
-    height: 21rem;
+    @include tamanio(12rem, 21rem);
 }
 .fondo-producto {
     background-image: $gradiente;
 }
 .pizarra-venta {
-    @include flex(center, center);
-    font-size: 1em;
-    font-family: "inlander";
+    @include tamanio(12rem, auto);
+    @include fuente("inlander", 1em);
+    @include flex(flex, center, center);
     background: url(../media/pizarra.webp);
     color: $colorGeneral;
-    width: 12em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    display: flex;
 }

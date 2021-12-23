@@ -1,13 +1,12 @@
 // Estilo de fondo del menú. Aplicado mixin.
 .pizarra-inicio {
-    @include barras;
+    @extend %barras;
     margin-bottom: 2rem;
     box-shadow: $sombraAbajo;
 }
 
 .logo {
-    width: 3em;
-    height: 3em;
+    @include tamanio(3rem, 3rem);
     transition: 1s;
 
     &:hover {
@@ -41,13 +40,9 @@ ul li:hover ul {
 .vinculo {
     color: $colorGeneral;
     text-decoration: none;
+    transition: all 1s;
 
     &:hover {
         color: $colorLinks;
     }
 }
- 
-
-  
-    
-
